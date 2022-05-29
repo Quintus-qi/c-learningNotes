@@ -150,8 +150,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug",
-		"source" : "/Users/luoqi/cplus-learn-notes/c-learningNotes"
+		"build" : "/Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug",
+		"source" : "/Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo"
 	},
 	"version" : 
 	{

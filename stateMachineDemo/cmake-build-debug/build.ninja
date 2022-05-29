@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: c_learningNotes
+# Project: statemachindemo
 # Configurations: Debug
 # =============================================================================
 
@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug/
+cmake_ninja_workdir = /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/luoqi/cplus-learn-notes/c-learningNotes -B/Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug
+  COMMAND = cd /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo -B/Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,43 +57,42 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target c_learningNotes
+# Object build statements for EXECUTABLE target statemachindemo
 
 
 #############################################
-# Order-only phony target for c_learningNotes
+# Order-only phony target for statemachindemo
 
-build cmake_object_order_depends_target_c_learningNotes: phony || CMakeFiles/c_learningNotes.dir
+build cmake_object_order_depends_target_statemachindemo: phony || CMakeFiles/statemachindemo.dir
 
-build CMakeFiles/c_learningNotes.dir/main.cpp.o: CXX_COMPILER__c_learningNotes_Debug /Users/luoqi/cplus-learn-notes/c-learningNotes/main.cpp || cmake_object_order_depends_target_c_learningNotes
-  DEP_FILE = CMakeFiles/c_learningNotes.dir/main.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
-  INCLUDES = -I/Users/luoqi/cplus-learn-notes/c-learningNotes/.
-  OBJECT_DIR = CMakeFiles/c_learningNotes.dir
-  OBJECT_FILE_DIR = CMakeFiles/c_learningNotes.dir
+build CMakeFiles/statemachindemo.dir/context.cpp.o: CXX_COMPILER__statemachindemo_Debug /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/context.cpp || cmake_object_order_depends_target_statemachindemo
+  DEP_FILE = CMakeFiles/statemachindemo.dir/context.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/statemachindemo.dir
+  OBJECT_FILE_DIR = CMakeFiles/statemachindemo.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target c_learningNotes
+# Link build statements for EXECUTABLE target statemachindemo
 
 
 #############################################
-# Link the executable c_learningNotes
+# Link the executable statemachindemo
 
-build c_learningNotes: CXX_EXECUTABLE_LINKER__c_learningNotes_Debug CMakeFiles/c_learningNotes.dir/main.cpp.o
+build statemachindemo: CXX_EXECUTABLE_LINKER__statemachindemo_Debug CMakeFiles/statemachindemo.dir/context.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/c_learningNotes.dir
+  OBJECT_DIR = CMakeFiles/statemachindemo.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = c_learningNotes
-  TARGET_PDB = c_learningNotes.dbg
+  TARGET_FILE = statemachindemo
+  TARGET_PDB = statemachindemo.dbg
 
 # =============================================================================
 # Target aliases.
@@ -104,9 +103,14 @@ build c_learningNotes: CXX_EXECUTABLE_LINKER__c_learningNotes_Debug CMakeFiles/c
 # =============================================================================
 
 #############################################
-# Folder: /Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug
+# Folder: /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug
 
-build all: phony c_learningNotes
+build all: phony statemachindemo
+
+# =============================================================================
+# Unknown Build Time Dependencies.
+# Tell Ninja that they may appear as side effects of build rules
+# otherwise ordered by order-only dependencies.
 
 # =============================================================================
 # Built-in targets

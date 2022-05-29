@@ -1,4 +1,4 @@
-# Install script for directory: /Users/luoqi/cplus-learn-notes/c-learningNotes
+# Install script for directory: /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/luoqi/cplus-learn-notes/c-learningNotes/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
