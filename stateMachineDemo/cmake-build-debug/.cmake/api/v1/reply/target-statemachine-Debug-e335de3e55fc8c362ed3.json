@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "statemachindemo"
+			"path" : "statemachine"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 4,
+				"line" : 3,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "statemachindemo::@6890427a1f51a3e7e1df",
+	"id" : "statemachine::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "statemachindemo",
-	"nameOnDisk" : "statemachindemo",
+	"name" : "statemachine",
+	"nameOnDisk" : "statemachine",
 	"paths" : 
 	{
 		"build" : ".",

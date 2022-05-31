@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "statemachindemo",
+					"name" : "statemachine",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "statemachindemo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-statemachindemo-Debug-b0c35844f693e4d558f5.json",
-					"name" : "statemachindemo",
+					"id" : "statemachine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-statemachine-Debug-e335de3e55fc8c362ed3.json",
+					"name" : "statemachine",
 					"projectIndex" : 0
 				}
 			]

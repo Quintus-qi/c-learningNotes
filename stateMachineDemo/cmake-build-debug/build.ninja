@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: statemachindemo
+# Project: statemachine
 # Configurations: Debug
 # =============================================================================
 
@@ -64,35 +64,35 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target statemachindemo
+# Object build statements for EXECUTABLE target statemachine
 
 
 #############################################
-# Order-only phony target for statemachindemo
+# Order-only phony target for statemachine
 
-build cmake_object_order_depends_target_statemachindemo: phony || CMakeFiles/statemachindemo.dir
+build cmake_object_order_depends_target_statemachine: phony || CMakeFiles/statemachine.dir
 
-build CMakeFiles/statemachindemo.dir/context.cpp.o: CXX_COMPILER__statemachindemo_Debug /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/context.cpp || cmake_object_order_depends_target_statemachindemo
-  DEP_FILE = CMakeFiles/statemachindemo.dir/context.cpp.o.d
+build CMakeFiles/statemachine.dir/context.cpp.o: CXX_COMPILER__statemachine_Debug /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/context.cpp || cmake_object_order_depends_target_statemachine
+  DEP_FILE = CMakeFiles/statemachine.dir/context.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/statemachindemo.dir
-  OBJECT_FILE_DIR = CMakeFiles/statemachindemo.dir
+  OBJECT_DIR = CMakeFiles/statemachine.dir
+  OBJECT_FILE_DIR = CMakeFiles/statemachine.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target statemachindemo
+# Link build statements for EXECUTABLE target statemachine
 
 
 #############################################
-# Link the executable statemachindemo
+# Link the executable statemachine
 
-build statemachindemo: CXX_EXECUTABLE_LINKER__statemachindemo_Debug CMakeFiles/statemachindemo.dir/context.cpp.o
+build statemachine: CXX_EXECUTABLE_LINKER__statemachine_Debug CMakeFiles/statemachine.dir/context.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
-  OBJECT_DIR = CMakeFiles/statemachindemo.dir
+  OBJECT_DIR = CMakeFiles/statemachine.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = statemachindemo
-  TARGET_PDB = statemachindemo.dbg
+  TARGET_FILE = statemachine
+  TARGET_PDB = statemachine.dbg
 
 # =============================================================================
 # Target aliases.
@@ -105,7 +105,7 @@ build statemachindemo: CXX_EXECUTABLE_LINKER__statemachindemo_Debug CMakeFiles/s
 #############################################
 # Folder: /Users/luoqi/cplus-learn-notes/c-learningNotes/stateMachineDemo/cmake-build-debug
 
-build all: phony statemachindemo
+build all: phony statemachine
 
 # =============================================================================
 # Unknown Build Time Dependencies.
